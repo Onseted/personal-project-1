@@ -27,14 +27,14 @@ export default function Home() {
             <p>How do I look like</p>
           </a>
 
-          <a href="" className={styles.card}>
+          <a className={styles.card}>
             <img className={styles.info_img} src="/contact.jpg"></img>
             <p>E-mail : 21700645@handong.ac.kr <br/> phone : 010-6309-1142 </p> 
 
           </a>
 
           <a
-            href=""
+            href="https://github.com/Onseted"
             className={styles.card}
           >
             <img className={styles.info_img} src="/code.jpg"></img>
