@@ -17,16 +17,16 @@ export default function Home() {
           <a href="https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=1&ie=utf8&query=%EC%A0%84%EC%A7%84">Welcome to Jin`s pages:)</a>
         </h1>
 
-        <br /><br />
         <div className={styles.grid}>
           <a href="" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Introduction of myself</p>
+            <img className={styles.info_img} src="/me.jpeg"></img>
+            <p>How do I look like</p>
           </a>
 
           <a href="" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Major / Projects </p>
+            <img className={styles.info_img} src="/contact.jpg"></img>
+            <p>E-mail : 21700645@handong.ac.kr <br/> phone : 010-6309-1142 </p>
+
           </a>
 
           <a
@@ -34,7 +34,7 @@ export default function Home() {
             className={styles.card}
           >
             <img className={styles.info_img} src="/code.jpg"></img>
-            <p>Git Repositories</p>
+            <p>Git Repository as Developer</p>
           </a>
         </div>
       </main>
