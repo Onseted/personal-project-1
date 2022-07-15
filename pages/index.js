@@ -25,7 +25,7 @@ export default function Home() {
 
           <a href="" className={styles.card}>
             <img className={styles.info_img} src="/contact.jpg"></img>
-            <p>E-mail : 21700645@handong.ac.kr <br/> phone : 010-6309-1142 </p>
+            <p>E-mail : 21700645@handong.ac.kr <br/> phone : 010-6309-1142 </p> 
 
           </a>
 
