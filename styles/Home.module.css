@@ -50,7 +50,7 @@
 }
 
 .grid {
-  display: list-item;
+  display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
@@ -99,9 +99,6 @@
   }
 }
 
-
-
-/*
 .footer {
   display: flex;
   flex: 1;
