@@ -42,6 +42,12 @@
   border-radius: 10px;
 }
 
+.me_img {
+  width: 500px;
+  height:500px;
+  border-radius: 100px;
+}
+
 .description {
   margin: 4rem 0;
   line-height: 1.5;
