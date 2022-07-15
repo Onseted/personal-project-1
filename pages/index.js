@@ -33,7 +33,7 @@ export default function Home() {
             href=""
             className={styles.card}
           >
-            <img src="개발자.jpg" width="5px" height="5px"></img>
+            <img src="/개발자.jpg" width="5px" height="5px"></img>
             <p>Git Repositories</p>
           </a>
         </div>
