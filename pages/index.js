@@ -17,9 +17,10 @@ export default function Home() {
           <a href="https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=1&ie=utf8&query=%EC%A0%84%EC%A7%84">Welcome to Jin`s pages:)</a>
         </h1>
 
+        <br /><br />
         <div className={styles.grid}>
           <a href="" className={styles.card}>
-            <h2>Documentation</h2>
+            <h2>Documentation &rarr;</h2>
             <p>Introduction of myself</p>
           </a>
 
@@ -32,7 +33,7 @@ export default function Home() {
             href=""
             className={styles.card}
           >
-            <h2>Examples &rarr;</h2>
+            <img src="개발자.jpg" width="5px" height="5px"></img>
             <p>Git Repositories</p>
           </a>
         </div>
