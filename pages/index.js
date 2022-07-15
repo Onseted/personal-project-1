@@ -33,11 +33,16 @@ export default function Home() {
             href=""
             className={styles.card}
           >
-            <img src="/code.jpg" width="5px" height="5px"></img>
+            <img src="/code.jpg" width="40px" height="40px"></img>
             <p>Git Repositories</p>
           </a>
         </div>
       </main>
+
+
+
+
+
 
       <footer className={styles.footer}>
         <a
