@@ -11,6 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+
       <main className={styles.main}>
         <h1 className={styles.title}>
           <a href="https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=1&ie=utf8&query=%EC%A0%84%EC%A7%84">Welcome to Jin`s pages:)</a>
@@ -34,16 +35,6 @@ export default function Home() {
             <h2>Examples &rarr;</h2>
             <p>Git Repositories</p>
           </a>
-
-          <a
-            href=""
-            className={styles.card}
-          >
-            <h2>Deploy &rarr;</h2>
-            <p>
-              Global Bridge Builders For Christ
-            </p>
-          </a>
         </div>
       </main>
 
@@ -53,7 +44,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
+          Modified by jin
           <span className={styles.logo}>
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
