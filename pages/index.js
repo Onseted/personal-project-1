@@ -17,7 +17,7 @@ export default function Home() {
           <img className={styles.info_img}
             src = "/me.jpeg" 
             href="https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=1&ie=utf8&query=%EC%A0%84%EC%A7%84">
-            Welcome to Jin`s pages:)</img>
+            </img>
         </h1>
 
         <div className={styles.grid}>
