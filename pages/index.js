@@ -33,7 +33,7 @@ export default function Home() {
             href=""
             className={styles.card}
           >
-            <img src="/code.jpg" width="40px" height="40px"></img>
+            <img className={styles.info_img} src="/code.jpg"></img>
             <p>Git Repositories</p>
           </a>
         </div>
