@@ -18,7 +18,7 @@ export default function Home() {
 
         <div className={styles.grid}>
           <a href="" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
+            <h2>Documentation</h2>
             <p>Introduction of myself</p>
           </a>
 
