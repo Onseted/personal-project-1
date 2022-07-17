@@ -15,30 +15,45 @@ export default function Home() {
       <main className={styles.main}>
         <h1 className={styles.title}>
           <p>Hello, This is Jin.</p>
-          <img className={styles.me_img}
-            src = "/me.jpeg" 
-            href="https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=1&ie=utf8&query=%EC%A0%84%EC%A7%84">
+          <img className={styles.me_img} src = "/me.jpeg"> 
             </img>
         </h1>
 
         <div className={styles.grid}>
-          <a href="" className={styles.card}>
+          <a href="https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=1&ie=utf8&query=%EC%A0%84%EC%A7%84" 
+            className={styles.card}>
             <img className={styles.info_img} src="/me.jpeg"></img>
-            <p>How do I look like</p>
+            <p>Self Introduction</p>
+            <p>
+              <h2>Student of Handong Univ. 
+              <br></br>
+              Majoring in Linguistics / Computer Science
+              <br></br>
+              Interest lies on NLP, specifically on STT transition.
+              <br></br>
+              For contact, Please look below. 
+              </h2>
+            </p>
           </a>
 
           <a className={styles.card}>
             <img className={styles.info_img} src="/contact.jpg"></img>
-            <p>E-mail : 21700645@handong.ac.kr <br/> phone : 010-6309-1142 </p> 
-
+            <p>
+              Contact
+            </p>
+            <h2>
+              E-mail : 21700645@handong.ac.kr  
+              <br></br>
+              phone : 010-6309-1142 
+            </h2>
           </a>
-
           <a
             href="https://github.com/Onseted"
             className={styles.card}
           >
             <img className={styles.info_img} src="/code.jpg"></img>
             <p>Git Repository as Developer</p>
+            <h2> Click this card to move Jin`s Repository. </h2>
           </a>
         </div>
       </main>
@@ -50,7 +65,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Modified by jin
+          Footer Copywrite autorized from VERCEL
           <span className={styles.logo}>
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
