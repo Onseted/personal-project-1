@@ -15,45 +15,44 @@ export default function Home() {
       <main className={styles.main}>
         <h1 className={styles.title}>
           <p>Hello, This is Jin.</p>
-          <img className={styles.me_img} src = "/me.jpeg"> 
+          <img className={styles.me_img} src = "/me.jpg"> 
             </img>
         </h1>
 
         <div className={styles.grid}>
           <a href="https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=1&ie=utf8&query=%EC%A0%84%EC%A7%84" 
             className={styles.card}>
-            <img className={styles.info_img} src="/me.jpeg"></img>
-            <p>Self Introduction</p>
+            <img className={styles.info_img} src="/intro.jpg"></img>
+            <h2>Self Introduction</h2>
             <p>
-              <h2>Student of Handong Univ. 
+              Student of Handong Univ. 
               <br></br>
               Majoring in Linguistics / Computer Science
               <br></br>
-              Interest lies on NLP, specifically on STT transition.
+              Interest lies on NLP(STT).
               <br></br>
               For contact, Please look below. 
-              </h2>
             </p>
           </a>
 
           <a className={styles.card}>
             <img className={styles.info_img} src="/contact.jpg"></img>
-            <p>
-              Contact
-            </p>
             <h2>
+              Contact
+            </h2>
+            <p>
               E-mail : 21700645@handong.ac.kr  
               <br></br>
               phone : 010-6309-1142 
-            </h2>
+            </p>
           </a>
           <a
             href="https://github.com/Onseted"
             className={styles.card}
           >
             <img className={styles.info_img} src="/code.jpg"></img>
-            <p>Git Repository as Developer</p>
-            <h2> Click this card to move Jin`s Repository. </h2>
+            <h2>Git Repository as Developer</h2>
+            <p> Click this card to move Jin`s Repository. </p>
           </a>
         </div>
       </main>
