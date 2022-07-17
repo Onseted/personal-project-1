@@ -27,11 +27,7 @@ export default function Home() {
             <p>
               Student of Handong Univ. 
               <br></br>
-              Majoring in Linguistics / Computer Science
-              <br></br>
               Interest lies on NLP(STT).
-              <br></br>
-              For contact, Please look below. 
             </p>
           </a>
 
