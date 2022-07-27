@@ -27,7 +27,7 @@ export default function Home() {
             <p>
               Student of Handong Univ. 
               <br></br>
-              Interest lies on NLP(STT).
+              Interest lies in NLP(STT).
             </p>
           </a>
 
