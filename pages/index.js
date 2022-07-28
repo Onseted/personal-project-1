@@ -1,7 +1,13 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-
+import styled from 'styled-components'
+const top = styled.img`
+  src = "/me.jpg"
+  width: 35%;
+  height:50%;
+  border-radius: 100px;
+`; 
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -15,8 +21,7 @@ export default function Home() {
       <main className={styles.main}>
         <h1 className={styles.title}>
           <p>Hello, This is Jin.</p>
-          <img className={styles.me_img} src = "/me.jpg"> 
-            </img>
+          <top></top>
         </h1>
 
         <div className={styles.grid}>
@@ -69,3 +74,5 @@ export default function Home() {
     </div>
   )
 }
+/*<img className={styles.me_img} src = "/me.jpg"> 
+            </img>*/ 
